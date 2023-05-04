@@ -15,7 +15,7 @@ const Recipes = ({ recipe }) => {
     }
     return (
         <div>
-            <div className="shadow-xl rounded-lg h-[500px] relative">
+            <div className="shadow-xl rounded-lg h-[700px] relative">
                 <LazyLoad>
                     <img className='lg:w-[500px] h-[250px] rounded mx-auto' src={img} />
                 </LazyLoad>
