@@ -28,11 +28,13 @@ const ChefDetails = () => {
             </div>
             <div className='lg:w-[1280px] mx-auto grid grid-cols-1 mt-16 md:grid-cols-2 lg:grid-cols-2 gap-6'>
                 {
-                    chefData.map((recipe, index) => <Recipes
+                    recipes.map((recipe, index) => <Recipes
                         key={index}
                         recipe={recipe}
                     ></Recipes>)
-                }</div>
+                }
+                
+                </div>
 
         </div>
     );

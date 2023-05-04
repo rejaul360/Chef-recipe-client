@@ -15,7 +15,8 @@
 }
 
 .text-linear {
-    background: linear-gradient(90deg, #ffbf00b8 0%, #ffbf00da 100%);
+    background: linear-gradient(90deg, #6EC72D 0%, 
+    #50DBB4 100%);
     background-clip: text;
 }
 
@@ -29,8 +30,8 @@
 }
 
 .get-started-btn {
-    background: linear-gradient(90deg, #FAC031 0%, 
-    #e8dd11 100%);
+    background: linear-gradient(90deg, #1C8D73 0%, 
+    #50DBB4 100%);
     width: 172px;
     height: 65px;
     margin-top: 32px;

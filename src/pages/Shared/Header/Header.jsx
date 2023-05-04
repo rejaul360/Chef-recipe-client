@@ -36,8 +36,8 @@ const Header = () => {
                             {menuItems}
                         </ul>
                     </div>
-                    <Link to="/" className="logo flex items-center gap-2 ">
-                        <LazyLoad><img src={logo} alt="" /></LazyLoad><span className='mt-3 text-[#FAC031]'>Tasty</span>
+                    <Link to="/" className="logo flex items-center gap-2 h-auto w-auto">
+                        <LazyLoad><img  src='https://img.freepik.com/premium-vector/logo-is-combination-spoon-fork-smile-that-forms-letters_666184-59.jpg?w=740' alt="" /></LazyLoad><span className='mt-3 '></span>
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">

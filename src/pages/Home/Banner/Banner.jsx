@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css'
-import banner from '../../../assets/main_img.png';
+// import banner from '../../../assets/main_img.png';
 import LazyLoad from 'react-lazy-load';
 const Banner = () => {
     return (
@@ -16,7 +16,7 @@ const Banner = () => {
                     </div>
                     <div className='banner-img'>
                         <LazyLoad>
-                            <img src={banner} alt="" />
+                            <img className='rounded' src="https://img.freepik.com/free-photo/big-tasty-burger-with-lettuce-leaves_144627-24419.jpg?w=996&t=st=1683185107~exp=1683185707~hmac=fe7f35f212c0789913d324a25132903ba69efae6ffc29eb0bb0d04005936d365" alt="" />
                         </LazyLoad>
                     </div>
                 </div>

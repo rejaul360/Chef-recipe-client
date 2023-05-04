@@ -7,7 +7,7 @@ import brand4 from '../../../assets/b4.png'
 const BrandName = () => {
     return (
         <div className='mt-16'>
-            <h1 className='banner-title text-center'>Our <span className='text-warning'>Brands</span></h1>
+            <h1 className='banner-title text-center'>Our <span className=''>Available Service</span></h1>
             <div className='grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center items-center'>
                 <img src={brand1} alt="" />
                 <img src={brand2} alt="" />

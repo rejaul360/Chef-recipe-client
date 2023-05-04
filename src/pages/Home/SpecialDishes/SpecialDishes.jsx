@@ -5,7 +5,7 @@ import { FaPizzaSlice, FaHamburger, FaBirthdayCake, FaCoffee, FaIceCream, FaGlas
 const SpecialDishes = () => {
     return (
         <div className='mt-12'>
-            <h2 className='mb-12 special-title text-center'>Our <span className='text-warning'>Special</span> Dishes</h2>
+            <h2 className='mb-12 special-title text-center'>Our <span className=''>Special</span> Dishes</h2>
             <div className='px-4 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 <div className="rounded-lg bg-base-100 shadow flex flex-col justify-center items-center py-5 px-2">
                     <span><FaPizzaSlice style={{ color: 'red', fontSize: '45px' }}></FaPizzaSlice></span>
