@@ -12,9 +12,9 @@ const Footer = () => {
             <div className='lg:w-[1280px] mx-auto pt-[120px] px-6 lg:px-0'>
                 <div className='grid grid-cols-1 sm-grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8  text-white pb-16'>
                     <div className='walks-life'>
-                        <div className='logo flex'>
-                        <img src={logo} alt="" />
-                        <span className='tasty'>Tasty</span>
+                        <div className=' h-8 w-12 rounded  text-center'>
+                        <img  src="https://img.freepik.com/premium-vector/chef-logo_20448-9.jpg?w=740" alt="" />
+                        <span className=''></span>
                         </div>
                         <p>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
                         <div className='flex items-center gap-4'>

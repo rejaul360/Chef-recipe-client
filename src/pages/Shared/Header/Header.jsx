@@ -21,7 +21,6 @@ const Header = () => {
     console.log(user);
     const menuItems = <>
         <li><ActiveLink to='/'>Home</ActiveLink></li>
-        <li><ActiveLink to='/about'>About</ActiveLink></li>
         <li><ActiveLink to='/blog'>Blog</ActiveLink></li>
     </>
     return (
@@ -37,7 +36,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <Link to="/" className="logo flex items-center gap-2 h-auto w-auto">
-                        <LazyLoad><img  src='https://img.freepik.com/premium-vector/logo-is-combination-spoon-fork-smile-that-forms-letters_666184-59.jpg?w=740' alt="" /></LazyLoad><span className='mt-3 '></span>
+                        <LazyLoad><img  src='https://img.freepik.com/premium-vector/chef-logo_20448-9.jpg?w=740' alt="" /></LazyLoad><span className='mt-3 '></span>
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">

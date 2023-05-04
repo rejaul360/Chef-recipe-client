@@ -8,14 +8,14 @@ import LazyLoad from 'react-lazy-load';
 const Recipes = ({ recipe }) => {
     console.log(recipe);
     const [isDisabled, setIsDisabled] = useState(false)
-    const { img, recipeName, rating, ingredients, cookingMethod } = recipe;
+    const { img, recipeName, rating, ingredients, cookingMethod } = recipe || {};
     const handleClick = () => {
         setIsDisabled(true);
         toast('Favorite button disabled successfully')
     }
     return (
         <div>
-            <div className="shadow-xl rounded-lg h-[700px] relative">
+            <div className="shadow-xl rounded-lg h-[500px] relative">
                 <LazyLoad>
                     <img className='lg:w-[500px] h-[250px] rounded mx-auto' src={img} />
                 </LazyLoad>
@@ -25,7 +25,7 @@ const Recipes = ({ recipe }) => {
 
                     <div className='mt-4'>
                         <Rating
-                            placeholderRating={rating.number}
+                            placeholderRating={rating?.number}
                             readonly
                             emptySymbol={<FaStar className="text-warning"></FaStar>}
                             placeholderSymbol={<FaRegStar className="text-warning"></FaRegStar>}
